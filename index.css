@@ -62,3 +62,67 @@ body{
 
 
 }
+
+#main{
+    display:flex;
+    
+}
+
+.left-container{
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    height:auto;
+}
+
+.reading-content{
+    display:flex;
+    flex-direction: row;
+}
+
+.article-pict img{
+    width: 350px;
+    height:220px;
+    margin-left: 10px;
+
+}
+
+.right-container{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content:space-between;
+    width: 35%;
+    height:auto;
+}
+.right-upper{
+    display:flex;
+    flex-direction: column;
+}
+
+.medium-twitter-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+   
+}
+.medium-twitter-icon img{
+    width: 50px;
+    height:50px;
+}
+
+.fa-plus{
+    color:rgba(128, 128, 128, 0.739);
+}
+
+.fa-twitter{
+    color:rgb(81, 183, 230);
+}
+
+.center-tofollow{
+    display:flex;
+    flex-direction: row;
+}
