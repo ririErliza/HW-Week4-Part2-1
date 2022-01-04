@@ -1,21 +1,23 @@
 body{
     margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #header{
     display: flex;
-    justify-content: space-around;
     align-items:center;
-    width: 100%;
-    height:100px;
-   
+    justify-content:space-between;
+    width:90%;
+    height:150px;
+ 
 }
 .logo-img img{
-    height:50px;
+    height:45px;
     width: 190px;
     margin-right: 200px;
+    margin-left:30px;
 }
 .icon-header-container{
-    width: 18%;
+    width: 320px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -30,7 +32,7 @@ body{
 
 .membership-box{
     color:rgb(31, 29, 29);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     background-color: white;
     border: 1px solid #949393;
     border-radius: 20px;
@@ -63,41 +65,121 @@ body{
 
 }
 
+/* End of header part*/
+
+
 #main{
-    display:flex;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:900px;
+    width: 1000px;
+    justify-content: flex-start;
     
 }
+
+/*left container begin here*/
 
 .left-container{
     display:flex;
     flex-direction: column;
-    width: 65%;
+    width: 92%;
     height:auto;
+    margin-left:30px;
 }
 
-.reading-content{
+.reading-option{
+    display:flex;
+    justify-content: space-between;
+    width: 330px;
+}
+
+.reading-content {
+    display:flex;
+    flex-direction: column;
+    height:1500vh;
+}
+
+.sneakpeak{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.sneakpeak-article{
+    width: 550px;
+}
+
+.sneakpeak-article p{
+    color:rgb(122, 122, 122);
+}
+
+.writer{
     display:flex;
     flex-direction: row;
+    align-items:center;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.writer-pict img{
+    margin-right:12px;
+    border-radius:20%;
+}
+
+.article-info{
+    font-size: 0.8em;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    height:10px;
+    
+    
+}
+
+.info-small{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    color: #808080d0;
+    
+}
+
+.info-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:13%;
+    font-size: 17px;
+    
+}
+
+.fa-circle{
+    font-size: 4px;
+    color:grey;
 }
 
 .article-pict img{
-    width: 350px;
-    height:220px;
-    margin-left: 10px;
+    width: 270px;
+    height:160px;
+    margin-left: 30px;
 
 }
 
-.right-container{
+
+/*right container begin here */
+
+.main .right-container{
     display:flex;
     flex-direction:column;
     align-content:center;
-    justify-content:space-between;
     width: 35%;
-    height:auto;
+    height:100%;
 }
-.right-upper{
+.right-container .right-upper{
     display:flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .medium-twitter-icon{
