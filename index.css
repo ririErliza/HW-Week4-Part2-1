@@ -134,6 +134,10 @@ body{
     border-radius:20%;
 }
 
+.writer span{
+    color:grey;
+}
+
 .article-info{
     font-size: 0.8em;
     display: flex;
