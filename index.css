@@ -37,7 +37,7 @@ body{
     color:rgb(31, 29, 29);
     font-size: 0.8rem;
     background-color: white;
-    border: 1px solid #949393;
+    border: 1px solid #9493938c;
     border-radius: 20px;
     width:150px;
     height:25px;
@@ -76,6 +76,7 @@ body{
     display: flex;
     height: 1600px;
     
+    
 }
 
 /*left container begin here*/
@@ -94,7 +95,7 @@ body{
     padding-bottom: 15px ;
     margin-top: 40px;
     width: 850px;
-    border-bottom: 1px rgba(128, 128, 128, 0.76) solid;
+    border-bottom: 1px rgba(128, 128, 128, 0.479) solid;
 }
 
 .reading-option .inline{
@@ -114,7 +115,7 @@ body{
     margin-top: 40px;
 }
 .sneakpeak-article{
-    width: 600px;
+    width: 500px;
 }
 
 .sneakpeak-article p{
@@ -185,10 +186,16 @@ body{
     
     display:flex;
     flex:1;
-    width:300px;
+    height: auto;
+    margin-top:-10px;
     flex-direction: column;
-    margin-top: 90px; 
+    border-left: 1px rgba(128, 128, 128, 0.493) solid;
+
     
+}
+
+.right-2, .right-3, .right-4, .right-5{
+    margin-left:50px;
 }
 
 
@@ -196,6 +203,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top:30px;
     
     
     
@@ -235,7 +243,9 @@ body{
 .connect{
     margin-bottom: 15px;
     text-align: center;
+    font-size: 0.9em;
 }
+
  .maybe{
      color:green;
      font-size: 0.8em;
@@ -262,11 +272,12 @@ body{
     height: 120px;
     width: 80px;
     justify-content: space-between;
+    font-size: 0.85em;
     
 }
 
 .flex-column div{
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(161, 159, 159, 0.342);
     border-radius: 15px;
     width: fit-content;
     margin: 2.5px;
